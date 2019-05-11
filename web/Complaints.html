@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.header {
+ background-color: lightblue;
+width:100%;
+height:90px;
+text-align: center;
+padding: 2px;
+
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:black;
+   color: white;
+   text-align: center;
+}
+.header h1 {
+  font-size: 30px;
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 370px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin:10px;
+  padding:20px;
+}
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 30px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color:#100F0E  ;
+  width: 767px;
+  padding: 50px;
+}
+
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #F0EC0F;
+  color: black;
+  padding: 14px 20px;
+  margin: 30px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: 80px;
+  background-color: #B93B16    ;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 20px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 50%;
+  }
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  
+  width: 100%;
+  border: 8px solid #ffffff;
+}
+
+th, td {
+  
+  text-align: center;
+  padding: 20px;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-remove {
+  color: red;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>COMPLAINTS</h1>
+  
+</div>
+<br>
+<div class="row" style="width:80%">
+  <div class="column" style="background-color:#4F2D74; color:#ffffff;">
+      <center><h1>APPLY COMPLAINTS HERE</h1></center>
+      <h4>Reception</h4>
+    <p>01795661011</p>
+<h4>Examination</h4>
+<p>Mr Karan: +91 9736158668</p>
+<center><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">APPLY</button></center>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="ComplaintController.." method ="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="https://chitkara.edu.in/landing-pages/2018/engineering/images/chitkara-dark-logo.png"  height="100" width="150">
+      
+    </div>
+
+      <div class="container" style="color:black;">   
+         
+          <h3><label for="uname"><b>Username:</b></label><br></h3>
+      <input type="text" placeholder="Enter Username" name="uname">
+      <br><br>
+      <h3><label for="email"><b>Email:</b></label><br></h3>
+      <input type="email" placeholder="Enter Email" name="email">
+        <br><br>
+        <h3><b>Complaint:</b></h3><br><textarea rows="5" cols="100">
+ enter your complaints here....
+</textarea>
+      <br><br><br><br>
+      <button type="submit">Send Complaint</button>
+    </div>
+               
+
+      <div class="container" >
+         
+         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" style="padding:10px;">Cancel</button>
+      
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+
+
+  </div>
+ 
+</div>
+
+<div class="row">
+<div class="column" style=" width:650px; height:80px;">
+   <table>
+       <center><font color="black" size="5"><b><u>INFORMATION ABOUT COMPLAINTS</u></b></font></center>
+       <br><br>
+  <tr>
+    <th>Complaints</th>
+    <th>Basic</th>
+    <th>Pro</th>
+  </tr>
+  <tr>
+    <td>Sample text</td>
+    <td><i class="fa fa-remove"></i></td>
+    <td><i class="fa fa-check"></i></td>
+  </tr>
+  <tr>
+    <td>Sample text</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+  </tr>
+  <tr>
+    <td>Sample text</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+  </tr>
+  <tr>
+    <td>Sample text</td>
+    <td><i class="fa fa-remove"></i></td>
+    <td><i class="fa fa-check"></i></td>
+  </tr>
+  <tr>
+    <td>Sample text</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+  </tr>
+ <tr>
+    <td>Sample text</td>
+    <td><i class="fa fa-remove"></i></td>
+    <td><i class="fa fa-check"></i></td>
+  </tr>
+</table>
+
+  </div>
+
+  
+</body>
+</html>
+

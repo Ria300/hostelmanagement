@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/home.jsp</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/src/java/servlet/profile.java</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/notice.jsp</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/Complaints.html</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/src/java/ComplaintController.java</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/login.html</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/src/conf/MANIFEST.MF</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/profile.html</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/admin1.html</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/src/java/NoticeController.java</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/addstudent.html</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/newjsp.jsp</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/index.html</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/src/java/servlet/login.java</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/src/java/db/connection.java</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/build.xml</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/Complaint.jsp</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/src/java/model/ProfileModel.java</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/home1.jsp</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/vehiclelogin.jsp</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/adminDashboard.html</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/check.jsp</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/vehiclesignup.jsp</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/reset.html</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/src/java/model/UserModel.java</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/insta.png</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/src/java/db/Provider.java</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/src/java/servlet/User.java</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/adminprofile.html</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/src/java/servlet/loginDAO.java</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/user/profile.jsp</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/registration.jsp</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/c.html</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/src/java/servlet/profileDAO.java</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/src/java/RegistrationController.java</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/Dashboard.html</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/web/adminNotice.html</file>
+            <file>file:/C:/Users/lenovo/Documents/NetBeansProjects/HostelManagement/build/generated/src/org/apache/jsp/user/profile_jsp.java</file>
+        </group>
+    </open-files>
+</project-private>
